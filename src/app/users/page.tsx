@@ -1,8 +1,8 @@
-import UserList from '../components/UserList';
+import UserList from '../../components/UserList';
 import Link from 'next/link';
 
-export default function Home() {
-  return (
+const UserListPage: React.FC = () => {
+  return (    
     <div className="p-4">
       <div className="grid grid-cols-1 place-content-center">
         <div className="grid grid-cols-2 w-screen flex-wrap place-items-center justify-between mx-auto p-4">
@@ -27,4 +27,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default UserListPage;

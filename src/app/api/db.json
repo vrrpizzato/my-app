@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nome": "John Snow",
+      "cpf": "12345678900",
+      "email": "john@example.com",
+      "telefone": "41885530007",
+      "endereco": "Winterfell"
+    }
+  ]
+}
