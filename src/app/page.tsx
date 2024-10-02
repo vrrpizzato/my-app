@@ -13,7 +13,7 @@ export default function Home() {
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
               <li>
                 <Link href="/users/new" className="hover:underline">
-                <button type="button" className="text-white font-bold bg-yellow-600 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:focus:ring-yellow-900">
+                <button type="button" className="text-white font-bold bg-yellow-600 hover:bg-yellow-500 focus:outline-none focus:ring-4 rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 focus:ring-yellow-400">
                     Create New
                   </button>
                 </Link>
